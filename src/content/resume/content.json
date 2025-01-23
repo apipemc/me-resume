@@ -1,0 +1,135 @@
+{
+  "header": {
+    "name": "Andrés Martinez",
+    "email": "andrepipemc@gmail.com",
+    "location": "Envigado, Colombia"
+  },
+  "main": {
+    "professionalSummary": "A highly experienced professional with over a decade dedicated to web and mobile application development. Focused on creating highly efficient teams and designing robust architectures, resulting in the successful execution of numerous projects. Possesses profound knowledge in essential technologies, including Javascript, Node.js, React, Nestjs, Python, and Flask, along with expertise in databases such as MySQL and PostgreSQL, as well as cloud technologies like AWS. Adept at leading teams in an agile methodology environment, excelling in Scrum and Kanban. Skills encompass user interface design, API creation, and product development. Passionate about using technical expertise and problem-solving abilities to create products with a significant impact on people. The value proposition lies in the combination of technical skills with meticulous attention to the user experience, coupled with an understanding of business processes. Committed to continuous improvement, with a natural inclination for learning and teaching. The professional goal is to continue working in interdisciplinary teams, contributing while building relationships based on trust and respect.",
+    "skills": [
+      "Effective communication",
+      "Planning strategy",
+      "Interdisciplinary team collaboration",
+      "Team building",
+      "Team leadership and management",
+      "Application design and architecture implementation",
+      "Agile methodologies: Scrum, Kanban",
+      "API creation",
+      "UX/UI knowledge",
+      "Web and mobile app development",
+      "AWS, Docker, Kubernetes (K8)",
+      "MySQL, PostgreSQL, MongoDB, Redis, Neo4j",
+      "Javascript (React, React Native, Electron)",
+      "NodeJs, Python",
+      "RabbitMQ"
+    ],
+    "experience": [
+      {
+        "title": "Engineering Manager",
+        "date": "October 2020 - Present",
+        "company": "RV Dev, Medellin, Colombia",
+        "responsibilities": [
+          "Supervised a team of 5-16 developers.",
+          "Managed the development of 3-5 projects concurrently.",
+          "Led the creation of 3 mobile applications.",
+          "Personnel recruitment.",
+          "Established the development process and architecture.",
+          "Resolved stability issues (crashes).",
+          "Cultivated a development culture.",
+          "Formed the development team.",
+          "Technology stack definition.",
+          "Collaborated with the team.",
+          "Worked in interdisciplinary teams.",
+          "Designed and developed microservice architectures using NestJs, AWS Lambda, RabbitMQ, MongoDB, and PostgreSQL.",
+          "Implemented micro front-ends with NX to enhance modularity and development efficiency.",
+          "Developed extensive knowledge of medical compliance standards, particularly HIPAA, and led the creation of EMR and CRM applications, ensuring robust data management and user-friendly interfaces."
+        ]
+      },
+      {
+        "title": "Senior Front End Developer",
+        "date": "May 2018 - October 2020",
+        "company": "Melt Studio, Medellin, Colombia",
+        "responsibilities": [
+          "Developed web applications in React.js.",
+          "Created mobile applications in React Native.",
+          "Designed application architecture.",
+          "Defined development processes.",
+          "Maintained and optimized applications."
+        ]
+      },
+      {
+        "title": "Senior Front End Developer",
+        "date": "April 2017 - April 2018",
+        "company": "BaseStone, London, United Kingdom, London",
+        "responsibilities": [
+          "Developed with Backbone.js.",
+          "Managed design using Canvas.",
+          "Established offline systems with CouchDB."
+        ]
+      },
+      {
+        "title": "Lead Development",
+        "date": "December 2015 - April 2017",
+        "company": "Auctio Inc, New York, United States",
+        "responsibilities": [
+          "Developed web applications in PHP and Node.js, including CRM-type solutions.",
+          "Created applications in Ember.js.",
+          "Integrated applications with APIs.",
+          "Integrated with Elasticsearch.",
+          "Managed AWS server administration.",
+          "Provided leadership for the development team.",
+          "Collaborated with the 500 startups team."
+        ]
+      },
+      {
+        "title": "Lead Development",
+        "date": "March 2013 - December 2015",
+        "company": "SM Digital, Medellin, Colombia",
+        "responsibilities": [
+          "Created web applications in PHP.",
+          "Developed applications for Facebook.",
+          "Created applications with Ionic.",
+          "Migrated hosting servers to AWS.",
+          "Managed server infrastructure.",
+          "Led cross-functional teams.",
+          "Developed development strategies.",
+          "Designed CMS websites."
+        ]
+      },
+      {
+        "title": "Junior Developer",
+        "date": "August 2011 - March 2013",
+        "company": "Hibu, Medellin, Colombia",
+        "responsibilities": [
+          "Developed web applications in PHP (Paginas Amarillas España).",
+          "Maintained PHP web applications (Paginas Amarillas España).",
+          "Managed servers.",
+          "Administered networks.",
+          "Created web pages."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "CESDE",
+        "date": "December 2010"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "proficiency": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency": "Beginner (A1)"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Boilerplate [React + Vite + Redux and Redux Saga]",
+        "link": "https://github.com/apipemc/react-redux-saga-vite-boilerplate"
+      }
+    ]
+  }
+}

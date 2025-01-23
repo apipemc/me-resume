@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Chat AI">
+  <main>
+    <div id="chat-container"></div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css"
+      rel="stylesheet"
+    />
+    <script type="module">
+      import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+      createChat({
+        webhookUrl: 'https://genuino-n8n.onrender.com/webhook/2f7ebb83-50ee-43e9-a230-f4928c2f69aa/chat',
+        container: '#chat-container',
+      });
+    </script>
+  </main>
+</Layout>

@@ -1,8 +1,9 @@
 ---
 import { getEntry } from 'astro:content';
+
 import Layout from '../layouts/Layout.astro';
 
-const entry = await getEntry('resumen', 'content');
+const entry = await getEntry('resume', 'content');
 ---
 <Layout title="CV Andrés Martinez">
 	<header class="grid grid-cols-1 m-8">
@@ -11,15 +12,19 @@ const entry = await getEntry('resumen', 'content');
 	</header>
 	<main class="m-8 text-sm font-sans">
 		<article class="mb-8">
-			<h2 class="font-sans font-semibold text-lg border-b-2 border-zinc-900 mb-5">Profesional Summary</h2>
+			<div class="flex flex-row items-center justify-stretch">
+				<h2 class="font-sans font-semibold text-lg">Profesional Summary</h2>
+			</div>
+			<hr class="border-b-[1.2px] border-zinc-900 mb-5"/>
 			<section class="font-sans normal-case">
 				{entry.data.main.professionalSummary}
 			</section>
 		</article>
 		<article class="mb-8">
-			<h2 class="font-sans font-semibold text-lg border-b-2 border-zinc-900 mb-5">Skills</h2>
+			<h2 class="font-sans font-semibold text-lg">Skills</h2>
+			<hr class="border-b-[1.2px] border-zinc-900 mb-5"/>
 			<section class="mx-4">
-				<ul class="list-disc grid grid-cols-2 gap-2 md:grid-cols-3">
+				<ul class="list-disc grid grid-cols-1 gap-2 md:grid-cols-3">
 					{entry.data.main.skills.map((skill) => (
 						<li>{skill}</li>
 					))}
@@ -27,7 +32,8 @@ const entry = await getEntry('resumen', 'content');
 			</section>
 		</article>
 		<article class="mb-8">
-			<h2 class="font-sans font-semibold text-lg border-b-2 border-zinc-900 mb-5">Experience</h2>
+			<h2 class="font-sans font-semibold text-lg">Experience</h2>
+			<hr class="border-b-[1.2px] border-zinc-900 mb-5"/>
 			{entry.data.main.experience.map((experience) => (
 				<section class="mb-4">
 					<aside class="grid grid-cols-2 mb-2">
@@ -44,7 +50,8 @@ const entry = await getEntry('resumen', 'content');
 			))}
 		</article>
 		<article class="mb-8">
-			<h2 class="font-sans font-semibold text-lg border-b-2 border-zinc-900 mb-5">Education</h2>
+			<h2 class="font-sans font-semibold text-lg">Education</h2>
+			<hr class="border-b-[1.2px] border-zinc-900 mb-5"/>
 			{entry.data.main.education.map((education) => (
 				<section>
 					<aside class="grid grid-cols-2 gap-2">
@@ -55,7 +62,8 @@ const entry = await getEntry('resumen', 'content');
 			))}
 		</article>
 		<article class="mb-8">
-			<h2 class="font-sans font-semibold text-lg border-b-2 border-zinc-900 mb-5">Language</h2>
+			<h2 class="font-sans font-semibold text-lg">Language</h2>
+			<hr class="border-b-[1.2px] border-zinc-900 mb-5"/>
 			<section class="grid grid-cols-2">
 				{entry.data.main.languages.map((language) => (
 					<aside>
@@ -66,7 +74,8 @@ const entry = await getEntry('resumen', 'content');
 			</section>
 		</article>
 		<article class="mb-8">
-			<h2 class="font-sans font-semibold text-lg border-b-2 border-zinc-900 mb-5">Projects</h2>
+			<h2 class="font-sans font-semibold text-lg">Projects</h2>
+			<hr class="border-b-[1.2px] border-zinc-900 mb-5"/>
 			<section>
 				<ul class="list-disc ml-4 gap-2">
 					{entry.data.main.projects.map((project) => (
