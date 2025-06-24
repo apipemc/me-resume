@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import './src/assets/styles/chat-widget.css';
+import chatWidgetUrl from '../assets/styles/chat-widget.css?url';
 ---
 <Layout title="Chat AI">
   <main>
@@ -9,6 +9,7 @@ import './src/assets/styles/chat-widget.css';
       href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href={chatWidgetUrl}>
     <script type="module">
       import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
