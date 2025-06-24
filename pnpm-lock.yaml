@@ -21,8 +21,8 @@ importers:
         specifier: ^0.21.5
         version: 0.21.5
       '@n8n/chat':
-        specifier: ^0.27.1
-        version: 0.27.1
+        specifier: ^0.44.0
+        version: 0.44.0
       '@types/react':
         specifier: ^18.0.21
         version: 18.2.37
@@ -313,6 +313,7 @@ packages:
   '@esbuild/darwin-x64@0.21.5':
     resolution: {integrity: sha512-se/JjF8NlmKVG4kNIuyWMV/22ZaerB+qaSi5MdrXtd6R08kvs2qCN4C09miupktDitvh8jRFflwGFBQcxZRjbw==}
     engines: {node: '>=12'}
+    cpu: [x64]
     os: [darwin]
 
   '@esbuild/freebsd-arm64@0.18.20':
@@ -573,8 +574,8 @@ packages:
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
     hasBin: true
 
-  '@n8n/chat@0.27.1':
-    resolution: {integrity: sha512-31iZ1G99vzqCKazjU1Q6T7kfAQNkZJgIHhkeqfW3qcXD9R3/03BSe/7/SVuAQLlp8gT/ueLrAJdg/86+3kY5WQ==}
+  '@n8n/chat@0.44.0':
+    resolution: {integrity: sha512-8Oq2kzP6ambEWuCgTiXmhnJimmiMQyqlmHbVj9yxljOZUjpZHZ9wN6vskRimC6srz+vOiSsPask7FkNTLWyI4A==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -3213,7 +3214,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@n8n/chat@0.27.1':
+  '@n8n/chat@0.44.0':
     dependencies:
       '@vueuse/core': 10.11.1(vue@3.5.13)
       highlight.js: 11.11.1
