@@ -1,0 +1,89 @@
+:root {
+    --chat--color-primary: #3A86FF;
+    --chat--color-background: #ffffff;
+    --chat--textarea--height: 55px;
+    --chat--header--background: #ffffff;
+    --chat--color-white: #ffffff;
+    --chat--window--width: 360px;
+    --chat--window--height: 620px;
+    --chat--border-radius: 12px;
+    --chat--font-family: 'Arial', sans-serif;
+    --chat--header--color: #000000;
+    --chat--heading--font-size: 2em;
+    --chat--toggle--background: var(--chat--color-primary);
+    --chat--toggle--hover--background: var(--chat--color-primary);
+    --chat--toggle--active--background: var(--chat--color-primary);
+    --chat--toggle--color: var(--chat--color-white);
+    --chat--subtitle--font-size: 0.9em;
+    --chat--textarea--height: 50px;
+    --chat--border-radius: 0;
+    --chat--toggle--size: 50px;
+
+    --chat--message--font-size: 0.9em;
+    --chat--message--border-radius: 16px;
+    --chat--message--bot--background: #F7F7F7;
+    --chat--message--bot--color: #262626;
+    --chat--message--bot--border: 1px solid #E6E6E6;
+    --chat--message--user--background: #C1E9F3;
+    --chat--message--user--color: #153C46;
+    --chat--message--user--border: 1px solid #A2D2DE;
+}
+
+.chat-layout .chat-header {
+    gap: 0 !important;
+}
+
+.chat-header .chat-heading h1 {
+    font-size: var(--chat--heading--font-size);
+    color: var(--chat--header--color);
+    font-weight: 700;
+}
+
+.chat-header p {
+    font-weight: 400;
+    color: var(--chat--header--color);
+    border-bottom: 1px solid #C7C7C7;
+    padding-bottom: 10px;
+}
+
+.chat-layout .chat-body {
+    background-color: var(--chat--color-background);
+    font-family: var(--chat--font-family);
+}
+
+.chat-layout .chat-footer {
+    border-top: 0;
+    background-color: var(--chat--color-background);
+    color: #888;
+    padding: 0px 13px 20px 13px;
+    text-align: center;
+}
+
+.chat-layout .chat-footer div {
+    background-color: #EDEDED;
+    border-start-start-radius: 6px;
+    border-end-start-radius: 6px;
+    border-start-end-radius: 6px;
+    border-end-end-radius: 6px;
+}
+
+.chat-layout .chat-footer div textarea {
+    background-color: #EDEDED;
+    color: #8C8C8C;
+    font-size: 0.9em;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    border-start-start-radius: 6px;
+    border-end-start-radius: 6px;
+}
+
+.chat-layout .chat-footer div .chat-inputs-controls button {
+    background-color: #EDEDED;
+    color: #8C8C8C;
+    border-start-end-radius: 6px;
+    border-end-end-radius: 6px;
+}
+
+.chat-layout .chat-layout .chat-powered-by {
+    display: none;
+}
