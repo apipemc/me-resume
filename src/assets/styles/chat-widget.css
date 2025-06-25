@@ -30,7 +30,21 @@
 }
 
 .chat-layout .chat-header {
-    gap: 0 !important;
+    flex-direction: row !important;
+        align-items: center !important;
+        gap: 1rem;
+        margin: 0 20px;
+        padding: 15px 0;
+        justify-content: start;
+        border-bottom: 1px solid #C7C7C7;
+    }
+    
+    .chat-header .chat-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.2;
+        align-items: flex-start;
 }
 
 .chat-header .chat-heading h1 {
@@ -42,8 +56,6 @@
 .chat-header p {
     font-weight: 400;
         color: var(--chat--header--color);
-        border-bottom: 1px solid #C7C7C7;
-        padding-bottom: 10px;
 }
 
 .chat-layout .chat-body {
@@ -86,4 +98,14 @@
 
 .chat-layout .chat-layout .chat-powered-by {
     display: none;
+}
+.chat-layout .chat-header::before {
+    content: '';
+    display: inline-block;
+    width: 53px;
+    height: 53px;
+    background-image: url('/public/images/agent-luna.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 9999px;
 }

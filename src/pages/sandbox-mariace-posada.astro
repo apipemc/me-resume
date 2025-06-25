@@ -2,6 +2,17 @@
 import Layout from '../layouts/Layout.astro';
 import chatWidgetUrl from '../assets/styles/chat-widget.css?url';
 ---
+<script>
+setTimeout(() => {
+  const header = document.querySelector('.chat-header');
+  const heading = header?.querySelector('.chat-heading');
+  const subtitle = header?.querySelector('p');
+
+  if (heading && subtitle) {
+    heading.appendChild(subtitle); // mueve el <p> dentro del .chat-heading
+  }
+}, 100);
+</script>
 <Layout title="Chat AI">
   <main>
     <div id="chat-container"></div>
