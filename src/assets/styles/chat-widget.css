@@ -109,3 +109,7 @@
     background-position: center;
     border-radius: 9999px;
 }
+.chat-layout .chat-message-markdown ul li,
+.chat-layout .chat-message-markdown ol li {
+    list-style: auto;
+}
